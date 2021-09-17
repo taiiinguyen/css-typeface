@@ -65,8 +65,8 @@
 	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 0px;
-	top: 10px;
+	left: 310px;
+	top: -300px;
 }
 .top-b {
 	width: 300px; 
@@ -118,8 +118,8 @@
 	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 0px;
-	top: 20px;
+	left: 620px;
+	top: -600px;
 }
 
 .base-c {
@@ -170,8 +170,8 @@
 	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 0px;
-	top: 30px;	
+	left: 930px;
+	top: -900px;	
 }
 .d-base {
     width: 300px; 
