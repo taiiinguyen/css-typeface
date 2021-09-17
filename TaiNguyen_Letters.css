@@ -1,23 +1,29 @@
 /* CODING FOR LETTER A*/
 
+.letter-a {
+	position: relative;
+	border:  0px solid #000;
+	width: 300px;
+	height: 300px;
+}
 .base-a { /* Code adapted from css-tricks.com/the-shapes-of-css/*/
     width: 300px; 
     height: 200px;
     background: black;
     position: absolute;
     border-radius: 40px;
-    top: 25px;
-    left: 25px;
+    top: 0px;
+    left: 0px;
     z-index: 1;
 }
 .counter-a {
 	width: 0;
 	height: 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
+	border-left: 22px solid transparent;
+	border-right: 22px solid transparent;
 	border-bottom: 50px solid white;
-	top: 100px;
-	left: 190px;
+	top: 80px;
+	left: 180px;
 	position: absolute;
 	z-index: 2;
 }
@@ -26,29 +32,165 @@
     height: 130px;
     background: white;
     position: absolute;
-    top: 195px;
-    left: 190px;
+    top: 170px;
+    left: 180px;
+    border-radius: 5px 5px 0px 0px;
     z-index: 3;
 }
-
 .left-stem-a {
-    width: 165px; 
+    width: 180px; 
     height: 160px;
     background: black;
     position: absolute;
-    border-radius: 25px;
-    top: 165px;
-    left: 25px;
+    border-radius: 20px;
+    top: 140px;
+    left: 0px;
+    z-index: 1;
+}
+.right-stem-a {
+    width: 75px; 
+    height: 160px;
+    background: black;
+    position: absolute;
+    border-radius: 20px;
+    top: 140px;
+    left: 225px;
     z-index: 1;
 }
 
-.right-stem-a {
-    width: 90px; 
-    height: 160px;
+/* CODING FOR LETTER B*/
+
+.letter-b {
+	position: relative;
+	border:  0px solid #000;
+	width: 300px;
+	height: 300px;
+	left: 0px;
+	top: 10px;
+}
+.top-b {
+	width: 300px; 
+    height: 150px;
     background: black;
     position: absolute;
-    border-radius: 25px;
-    top: 165px;
-    left: 235px;
+    border-radius: 40px 30px 30px 0px;
+    top: 0px;
+    left: 0px;
     z-index: 1;
+}
+.bottom-b {
+	width: 300px; 
+    height: 150px;
+    background: black;
+    position: absolute;
+    border-radius: 0px 30px 30px 40px;
+    top: 150px;
+    left: 0px;
+    z-index: 1;
+}
+.top-b-counter {
+	width:  50px;
+	height: 50px;
+	top: 50px;
+	left: 200px;
+	border-radius: 70px;
+	background: white;
+	transform: skew(27deg);
+	position:  absolute;
+	z-index: 2;
+}
+.bottom-b-counter {
+	width:  50px;
+	height: 50px;
+	top: 175px;
+	left: 200px;
+	border-radius: 70px;
+	background: white;
+	transform: skew(27deg);
+	position:  absolute;
+	z-index: 2;
+}
+
+/* CODING FOR LETTER C*/
+
+.letter-c {
+	position: relative;
+	border:  0px solid #000;
+	width: 300px;
+	height: 300px;
+	left: 0px;
+	top: 20px;
+}
+
+.base-c {
+    width: 250px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 40px 0px 0px 40px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;	
+}
+.counter-c {
+	width: 120px; 
+    height: 45px;
+    background: white;
+    position: absolute;
+    border-radius: 10px 0px 0px 10px;
+    top: 120px;
+    left: 180px;
+    z-index: 1;
+}
+.top-c {
+	width: 125px; 
+    height: 120px;
+    background: black;
+    position: absolute;
+    border-radius: 0px 30px 30px 0px;
+    top: 0px;
+    left: 175px;
+    z-index: 1;
+}
+.bottom-c {
+	width: 125px; 
+    height: 135px;
+    background: black;
+    position: absolute;
+    border-radius: 0px 30px 30px 0px;
+    top: 165px;
+    left: 175px;
+    z-index: 1;
+}
+
+/* CODING FOR LETTER D*/
+
+.letter-d {
+	position: relative;
+	border:  0px solid #000;
+	width: 300px;
+	height: 300px;
+	left: 0px;
+	top: 30px;	
+}
+.d-base {
+    width: 300px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 40px 100px 100px 40px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;	
+}
+.d-counter {
+	width:  75px;
+	height: 75px;
+	top: 70px;
+	left: 160px;
+	border-radius: 70px;
+	background: white;
+	transform: skew(27deg);
+	position:  absolute;
+	z-index: 2;
 }
