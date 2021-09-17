@@ -1,0 +1,54 @@
+/* CODING FOR LETTER A*/
+
+.base-a { /* Code adapted from css-tricks.com/the-shapes-of-css/*/
+    width: 300px; 
+    height: 200px;
+    background: black;
+    position: absolute;
+    border-radius: 40px;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
+.counter-a {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 50px solid white;
+	top: 100px;
+	left: 190px;
+	position: absolute;
+	z-index: 2;
+}
+.opencounter-a {
+	width: 45px; 
+    height: 130px;
+    background: white;
+    position: absolute;
+    top: 195px;
+    left: 190px;
+    z-index: 3;
+}
+
+.left-stem-a {
+    width: 165px; 
+    height: 160px;
+    background: black;
+    position: absolute;
+    border-radius: 25px;
+    top: 165px;
+    left: 25px;
+    z-index: 1;
+}
+
+.right-stem-a {
+    width: 90px; 
+    height: 160px;
+    background: black;
+    position: absolute;
+    border-radius: 25px;
+    top: 165px;
+    left: 235px;
+    z-index: 1;
+}
