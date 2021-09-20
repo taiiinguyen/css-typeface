@@ -318,11 +318,11 @@
     border-radius: 5px 0px 0px 5px;
 }
 
- /* CODING FOR LETTER G*/
+  /* CODING FOR LETTER G*/
 
 .letter-g {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 320px;
@@ -359,35 +359,35 @@
     border-radius: 0px 30px 30px 30px;	
 }
 .g-right{
-    width: 90px; 
+    width: 145px; 
     height: 180px;
     background: black;
     position: absolute;
     border-radius: 20px;
     top: 105px;
-    left: 210px;
+    left: 155px;
     z-index: 2;
 }
 .g-counter{
-	width: 10px; 
+	width: 17px; 
     height: 120px;
     top: 90px;
     left: 140px;
     z-index: 2;
     background: white;
     position: absolute;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px 0px 5px 5px;
 }
 
  /* CODING FOR LETTER H*/
 
 .letter-h {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 630px;
-	top: -1784px;
+	top: -1780px;
 }
 .h-stem1 {
     width: 142.5px; 
@@ -444,11 +444,11 @@
 
 .letter-i {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 940px;
-	top: -2086px;
+	top: -2080px;
 }
 .i-top{
 	width: 300px; 
@@ -504,66 +504,295 @@
  /* CODING FOR LETTER J*/
 .letter-j {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 1250px;
-	top: -2388px;
+	top: -2380px;
+}
+.j-top {
+    width: 300px; 
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 0px 30px;    
+}
+.j-stem {
+    width: 150px; 
+    height: 300px;
+    top: 0px;
+    left: 150px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;      
+}
+.j-hook {
+    width: 145px; 
+    height: 180px;
+    background: black;
+    position: absolute;
+    border-radius: 20px;
+    top: 120px;
+    left: 0px;
+    z-index: 2;
+}
+.j-bottom {
+    width: 300px; 
+    height: 90px;
+    top: 210px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 0px 30px 30px 30px;  
+}
+.j-counter {
+    width: 17px; 
+    height: 120px;
+    top: 90px;
+    left: 140px;
+    z-index: 2;
+    background: white;
+    position: absolute;
+    border-radius: 0px 5px 5px 5px;    
 }
 
  /* CODING FOR LETTER K*/
 
 .letter-k {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -2378px;
+	top: -2370px;
+}
+
+.k-stem {
+    width: 150px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;
+}
+.k-leg1 {
+    width:  120px;
+    height: 150px;
+    top: 0px;
+    left: 155px;
+    border-radius: 30px 30px 0px 0px;
+    background: black;
+    transform: skew(-27deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.k-leg2 {
+    width:  120px;
+    height: 150px;
+    top: 150px;
+    left: 155px;
+    border-radius: 0px 0px 30px 30px;
+    background: black;
+    transform: skew(27deg);
+    position:  absolute;
+    z-index: 2;     
 }
 
  /* CODING FOR LETTER L*/
 
 .letter-l {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 320px;
-	top: -2680px;
+	top: -2670px;
+}
+.l-stem {
+    width: 150px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 0px 30px;    
+}
+.l-bottom {
+    width: 300px; 
+    height: 90px;
+    top: 210px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 0px 30px 30px 30px;    
 }
 
  /* CODING FOR LETTER M*/
 
 .letter-m {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 630px;
-	top: -2982px;
+	top: -2970px;
+}
+.m-leg1{
+    width: 90px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;    
+}
+.m-leg2{
+    width: 90px; 
+    height: 300px;
+    top: 0px;
+    left: 210px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;     
+}
+.m-top1{
+    width:  120px;
+    height: 150px;
+    top: 0px;
+    left: 30px;
+    border-radius: 50px 20px 0px 20px;
+    background: black;
+    transform: skew(30deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.m-top2{
+    width:  120px;
+    height: 150px;
+    top: 0px;
+    left: 150px;
+    border-radius: 20px 50px 0px 0px;
+    background: black;
+    transform: skew(-30deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.m-bottom1{
+    width:  70px;
+    height: 150px;
+    top: 150px;
+    left: 135px;
+    border-radius: 0px 0px 20px 30px;
+    background: black;
+    transform: skew(-20deg);
+    position:  absolute;
+    z-index: 2;  
+}
+.m-bottom2{
+    width:  70px;
+    height: 150px;
+    top: 150px;
+    left: 95px;
+    border-radius: 0px 0px 30px 20px;
+    background: black;
+    transform: skew(20deg);
+    position:  absolute;
+    z-index: 2;  
+}
+.m-fill {
+    width: 50px; 
+    height: 50px;
+    top: 150px;
+    left: 120px;
+    background: black;
+    position: absolute;
+
 }
 
  /* CODING FOR LETTER N*/
 
 .letter-n {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 940px;
-	top: -3284px;
+	top: -3270px;
 }
+.n-leg1{
+    width: 110px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;      
+}
+.n-leg2{
+    width: 110px; 
+    height: 300px;
+    top: 0px;
+    left: 190px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;      
+}
+.n-stroke{
+    width:  150px;
+    height: 300px;
+    top: 0px;
+    left: 75px;
+    border-radius: 50px 30px 50px 30px;
+    background: black;
+    transform: skew(30deg);
+    position:  absolute;
+    z-index: 2;        
+}
+
 
  /* CODING FOR LETTER O*/
 
 .letter-o {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 1250px;
-	top: -3586px;
+	top: -3570px;
+}
+.o-base{
+    width: 300px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;     
+}
+.o-counter{
+    width:  75px;
+    height: 75px;
+    top: 70px;
+    left: 160px;
+    border-radius: 70px;
+    background: white;
+    transform: skew(27deg);
+    position:  absolute;
+    z-index: 2;    
 }
 
  /* CODING FOR LETTER P*/
@@ -574,7 +803,38 @@
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -3576px;
+	top: -3555px;
+}
+.p-stem {
+    width: 150px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 0px 30px 30px;      
+}
+.p-bowl {
+    width: 300px; 
+    height: 180px;
+    background: black;
+    position: absolute;
+    border-radius: 40px 30px 30px 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;    
+}
+.p-counter {
+    width:  50px;
+    height: 50px;
+    top: 50px;
+    left: 200px;
+    border-radius: 70px;
+    background: white;
+    transform: skew(27deg);
+    position:  absolute;
+    z-index: 2;    
 }
 
  /* CODING FOR LETTER Q*/
@@ -582,11 +842,42 @@
 .letter-q {
 	position: relative;
 	border:  1px solid #000;
-	width: 300px;
+	width: 350px;
 	height: 300px;
-	left: 320px;
-	top: -3878px;
+	left: 325px;
+	top: -3860px;
 }
+.q-base {
+    width: 300px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 70px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;     
+}
+.q-counter {
+    width: 100px; 
+    height: 100px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+    top: 100px;
+    left: 100px;
+    z-index: 2;     
+}
+.q-tail {
+    width: 150px; 
+    height: 90px;
+    top: 150px;
+    left: 200px;
+    z-index: 3;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;      
+}
+
 
  /* CODING FOR LETTER R*/
 
@@ -595,8 +886,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 630px;
-	top: -4180px;
+	left: 690px;
+	top: -4163px;
 }
 
  /* CODING FOR LETTER S*/
@@ -606,8 +897,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 940px;
-	top: -4482px;
+	left: 1005px;
+	top: -4465px;
 }
 
  /* CODING FOR LETTER T*/
@@ -617,8 +908,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 1250px;
-	top: -4784px;
+	left: 1320px;
+	top: -4769px;
 }
 
  /* CODING FOR LETTER U*/
@@ -629,7 +920,7 @@
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -4774px;
+	top: -4755px;
 }
 
  /* CODING FOR LETTER V*/
@@ -639,8 +930,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 320px;
-	top: -5076px;
+	left: 325px;
+	top: -5058px;
 }
 
  /* CODING FOR LETTER W*/
@@ -650,8 +941,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 630px;
-	top: -5379px;
+	left: 640px;
+	top: -5360px;
 }
 
  /* CODING FOR LETTER X*/
@@ -661,8 +952,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 940px;
-	top: -5682px;
+	left: 955px;
+	top: -5663px;
 }
 
  /* CODING FOR LETTER Y*/
@@ -672,8 +963,8 @@
 	border:  1px solid #000;
 	width: 300px;
 	height: 300px;
-	left: 1250px;
-	top: -5985px;
+	left: 1270px;
+	top: -5965px;
 }
 
  /* CODING FOR LETTER Z*/
@@ -684,5 +975,5 @@
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -5975px;
+	top: -5955px;
 }
