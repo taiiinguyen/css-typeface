@@ -265,11 +265,11 @@
     border-radius: 5px 0px 0px 5px;
  }
 
- /* CODING FOR LETTER F*/
+  /* CODING FOR LETTER F*/
 
 .letter-f {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 10px;
@@ -318,7 +318,7 @@
     border-radius: 5px 0px 0px 5px;
 }
 
-  /* CODING FOR LETTER G*/
+ /* CODING FOR LETTER G*/
 
 .letter-g {
 	position: relative;
@@ -799,7 +799,7 @@
 
 .letter-p {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 10px;
@@ -841,7 +841,7 @@
 
 .letter-q {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid white;
 	width: 350px;
 	height: 300px;
 	left: 325px;
@@ -883,66 +883,319 @@
 
 .letter-r {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 690px;
-	top: -4163px;
+	top: -4160px;
 }
+.r-stem {
+    width: 150px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 0px 30px 30px;     
+}
+.r-bowl {
+    width: 300px; 
+    height: 180px;
+    background: black;
+    position: absolute;
+    border-radius: 40px 30px 30px 0px;
+    top: 0px;
+    left: 0px;
+    z-index: 1; 
+}
+.r-counter {
+    width:  50px;
+    height: 50px;
+    top: 50px;
+    left: 200px;
+    border-radius: 70px;
+    background: white;
+    transform: skew(27deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.r-leg {
+    width:  120px;
+    height: 150px;
+    top: 150px;
+    left: 155px;
+    border-radius: 0px 0px 30px 30px;
+    background: black;
+    transform: skew(27deg);
+    position:  absolute;
+    z-index: 2;    
+}
+
 
  /* CODING FOR LETTER S*/
 
 .letter-s {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 1005px;
-	top: -4465px;
+	top: -4460px;
+}
+.s-curve1 {
+    width:  120px;
+    height: 120px;
+    top: 0px;
+    left: 175px;
+    border-radius: 60px;
+    background: black;
+    transform: skew(15deg);
+    position:  absolute;
+    z-index: 2; 
+}
+
+.s-curve2 {
+    width:  200px;
+    height: 300px;
+    top: 0px;
+    left: 50px;
+    border-radius: 100px 30px 100px 50px;
+    background: black;
+    transform: skew(32deg);
+    position:  absolute;
+    z-index: 2; 
+}
+
+.s-curve3 {
+    width:  120px;
+    height: 120px;
+    top: 180px;
+    left: 0px;
+    border-radius: 60px;
+    background: black;
+    transform: skew(15deg);
+    position:  absolute;
+    z-index: 2; 
 }
 
  /* CODING FOR LETTER T*/
 
 .letter-t {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 1320px;
-	top: -4769px;
+	top: -4760px;
 }
+.t-cross {
+    width: 300px; 
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px;    
+}
+.t-stem {
+    width: 150px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 20px;
+    top: 0px;
+    left: 75px;
+    z-index: 2;     
+}
+
+.s-filler1{
+    width:  120px;
+    height: 120px;
+    top: 0px;
+    left: 100px;
+    background: black;
+    position:  absolute;    
+}
+
+.s-filler2{
+    width:  120px;
+    height: 120px;
+    top: 180px;
+    left: 80px;
+    background: black;
+    position:  absolute;    
+}
+
 
  /* CODING FOR LETTER U*/
 
 .letter-u {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -4755px;
+	top: -4745px;
+}
+.u-curve1 {
+    width: 142.5px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 20px;
+    top: 0px;
+    left: 0px;
+    z-index: 2; 
+}
+.u-bottom {
+    width: 100px; 
+    height: 90px;
+    top: 210px;
+    left: 120px;
+    z-index: 1;
+    background: black;
+    position: absolute;  
+}
+.u-curve2 {
+    width: 142.5px; 
+    height: 300px;
+    background: black;
+    position: absolute;
+    border-radius: 20px;
+    top: 0px;
+    left: 157.5px;
+    z-index: 2; 
+}
+.u-counter {
+    width: 15px; 
+    height: 100px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+    top: 115px;
+    left: 142.5px;
+    z-index: 2; 
 }
 
  /* CODING FOR LETTER V*/
 
 .letter-v {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 325px;
-	top: -5058px;
+	top: -5050px;
+}
+.v-leg1 {
+    width:  150px;
+    height: 300px;
+    top: 0px;
+    left: 35px;
+    border-radius: 30px;
+    background: black;
+    transform: skew(15deg);
+    position:  absolute;
+    z-index: 2; 
+}
+.v-leg2 {
+    width:  110px;
+    height: 300px;
+    top: 0px;
+    left: 155px;
+    border-radius: 20px;
+    background: black;
+    transform: skew(-15deg);
+    position:  absolute;
+    z-index: 2; 
 }
 
  /* CODING FOR LETTER W*/
 
 .letter-w {
 	position: relative;
-	border:  1px solid #000;
+	border:  0px solid #000;
 	width: 300px;
 	height: 300px;
 	left: 640px;
-	top: -5360px;
+	top: -5350px;
+}
+
+.w-leg1{
+    width: 90px; 
+    height: 300px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;    
+}
+.w-leg2{
+    width: 90px; 
+    height: 300px;
+    top: 0px;
+    left: 210px;
+    z-index: 1;
+    background: black;
+    position: absolute;
+    border-radius: 30px 30px 30px 30px;     
+}
+.w-bottom1{
+    width:  120px;
+    height: 150px;
+    top: 150px;
+    left: 30px;
+    border-radius: 0px 0px 20px 50px;
+    background: black;
+    transform: skew(-30deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.w-bottom2{
+    width:  120px;
+    height: 150px;
+    top: 150px;
+    left: 150px;
+    border-radius: 0px 0px 50px 20px;
+    background: black;
+    transform: skew(30deg);
+    position:  absolute;
+    z-index: 2;    
+}
+.w-top1{
+    width:  70px;
+    height: 150px;
+    top: 0px;
+    left: 135px;
+    border-radius: 30px 10px 0px 0px;
+    background: black;
+    transform: skew(20deg);
+    position:  absolute;
+    z-index: 2;  
+}
+.w-top2{
+    width:  70px;
+    height: 150px;
+    top: 0px;
+    left: 95px;
+    border-radius: 10px 30px 0px 0px;
+    background: black;
+    transform: skew(-20deg);
+    position:  absolute;
+    z-index: 2;  
+}
+.w-fill {
+    width: 50px; 
+    height: 60px;
+    top: 110px;
+    left: 120px;
+    background: black;
+    position: absolute;
+    z-index: 3;
+
 }
 
  /* CODING FOR LETTER X*/
@@ -953,7 +1206,7 @@
 	width: 300px;
 	height: 300px;
 	left: 955px;
-	top: -5663px;
+	top: -5645px;
 }
 
  /* CODING FOR LETTER Y*/
@@ -964,7 +1217,7 @@
 	width: 300px;
 	height: 300px;
 	left: 1270px;
-	top: -5965px;
+	top: -5945px;
 }
 
  /* CODING FOR LETTER Z*/
@@ -975,5 +1228,5 @@
 	width: 300px;
 	height: 300px;
 	left: 10px;
-	top: -5955px;
+	top: -5935px;
 }
