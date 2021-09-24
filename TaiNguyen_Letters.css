@@ -1,3 +1,12 @@
+.letter {
+position: relative;
+border: 5px solid white;
+width: 300px;
+height: 300px;
+display: inline-block;
+}
+
+
 /* CODING FOR LETTER A*/
 
 .letter-a {
@@ -60,14 +69,7 @@
 
 /* CODING FOR LETTER B*/
 
-.letter-b {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 310px;
-	top: -300px;
-}
+
 .top-b {
 	width: 300px; 
     height: 150px;
@@ -113,14 +115,6 @@
 
 /* CODING FOR LETTER C*/
 
-.letter-c {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 620px;
-	top: -600px;
-}
 
 .base-c {
     width: 250px; 
@@ -165,14 +159,6 @@
 
 /* CODING FOR LETTER D*/
 
-.letter-d {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 930px;
-	top: -900px;	
-}
 .d-base {
     width: 300px; 
     height: 300px;
@@ -194,16 +180,9 @@
 	position:  absolute;
 	z-index: 2;
 }
+
 /* CODING FOR LETTER E*/
 
-.letter-e {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1250px;
-	top: -1190px;
-}
 .e-stem {
 	width: 150px; 
     height: 300px;
@@ -265,16 +244,7 @@
     border-radius: 5px 0px 0px 5px;
  }
 
-  /* CODING FOR LETTER F*/
-
-.letter-f {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 10px;
-	top: -1180px;
-}
+ /* CODING FOR LETTER F*/
 
 .f-stem {
 	width: 150px; 
@@ -320,14 +290,6 @@
 
  /* CODING FOR LETTER G*/
 
-.letter-g {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 320px;
-	top: -1482px;
-}
 .g-top {
 	width: 300px; 
     height: 90px;
@@ -381,14 +343,6 @@
 
  /* CODING FOR LETTER H*/
 
-.letter-h {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 630px;
-	top: -1780px;
-}
 .h-stem1 {
     width: 142.5px; 
     height: 300px;
@@ -442,14 +396,6 @@
 
  /* CODING FOR LETTER I*/
 
-.letter-i {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 940px;
-	top: -2080px;
-}
 .i-top{
 	width: 300px; 
     height: 142.5px;
@@ -502,14 +448,7 @@
 }
 
  /* CODING FOR LETTER J*/
-.letter-j {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1250px;
-	top: -2380px;
-}
+
 .j-top {
     width: 300px; 
     height: 90px;
@@ -563,15 +502,6 @@
 
  /* CODING FOR LETTER K*/
 
-.letter-k {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 10px;
-	top: -2370px;
-}
-
 .k-stem {
     width: 150px; 
     height: 300px;
@@ -607,14 +537,6 @@
 
  /* CODING FOR LETTER L*/
 
-.letter-l {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 320px;
-	top: -2670px;
-}
 .l-stem {
     width: 150px; 
     height: 300px;
@@ -638,14 +560,6 @@
 
  /* CODING FOR LETTER M*/
 
-.letter-m {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 630px;
-	top: -2970px;
-}
 .m-leg1{
     width: 90px; 
     height: 300px;
@@ -722,14 +636,6 @@
 
  /* CODING FOR LETTER N*/
 
-.letter-n {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 940px;
-	top: -3270px;
-}
 .n-leg1{
     width: 110px; 
     height: 300px;
@@ -765,14 +671,6 @@
 
  /* CODING FOR LETTER O*/
 
-.letter-o {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1250px;
-	top: -3570px;
-}
 .o-base{
     width: 300px; 
     height: 300px;
@@ -797,14 +695,6 @@
 
  /* CODING FOR LETTER P*/
 
-.letter-p {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 10px;
-	top: -3555px;
-}
 .p-stem {
     width: 150px; 
     height: 300px;
@@ -840,12 +730,7 @@
  /* CODING FOR LETTER Q*/
 
 .letter-q {
-	position: relative;
-	border:  0px solid white;
 	width: 350px;
-	height: 300px;
-	left: 325px;
-	top: -3860px;
 }
 .q-base {
     width: 300px; 
@@ -881,14 +766,6 @@
 
  /* CODING FOR LETTER R*/
 
-.letter-r {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 690px;
-	top: -4160px;
-}
 .r-stem {
     width: 150px; 
     height: 300px;
@@ -935,14 +812,6 @@
 
  /* CODING FOR LETTER S*/
 
-.letter-s {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1005px;
-	top: -4460px;
-}
 .s-curve1 {
     width:  120px;
     height: 120px;
@@ -979,16 +848,27 @@
     z-index: 2; 
 }
 
+.s-filler1{
+    width:  120px;
+    height: 120px;
+    top: 0px;
+    left: 100px;
+    background: black;
+    position:  absolute;    
+}
+
+.s-filler2{
+    width:  120px;
+    height: 120px;
+    top: 180px;
+    left: 80px;
+    background: black;
+    position:  absolute;    
+}
+
+
  /* CODING FOR LETTER T*/
 
-.letter-t {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1320px;
-	top: -4760px;
-}
 .t-cross {
     width: 300px; 
     height: 90px;
@@ -1010,35 +890,8 @@
     z-index: 2;     
 }
 
-.s-filler1{
-    width:  120px;
-    height: 120px;
-    top: 0px;
-    left: 100px;
-    background: black;
-    position:  absolute;    
-}
-
-.s-filler2{
-    width:  120px;
-    height: 120px;
-    top: 180px;
-    left: 80px;
-    background: black;
-    position:  absolute;    
-}
-
-
  /* CODING FOR LETTER U*/
 
-.letter-u {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 10px;
-	top: -4745px;
-}
 .u-curve1 {
     width: 142.5px; 
     height: 300px;
@@ -1081,14 +934,6 @@
 
  /* CODING FOR LETTER V*/
 
-.letter-v {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 325px;
-	top: -5050px;
-}
 .v-leg1 {
     width:  150px;
     height: 300px;
@@ -1113,15 +958,6 @@
 }
 
  /* CODING FOR LETTER W*/
-
-.letter-w {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 640px;
-	top: -5350px;
-}
 
 .w-leg1{
     width: 90px; 
@@ -1200,14 +1036,6 @@
 
  /* CODING FOR LETTER X*/
 
-.letter-x {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 955px;
-	top: -5645px;
-}
 .x-bar1 {
     width:  140px;
     height: 300px;
@@ -1233,14 +1061,6 @@
 
  /* CODING FOR LETTER Y*/
 
-.letter-y {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 1270px;
-	top: -5945px;
-}
 .y-top1 {
     width:  140px;
     height: 150px;
@@ -1286,15 +1106,6 @@
 
 
  /* CODING FOR LETTER Z*/
-
-.letter-z {
-	position: relative;
-	border:  0px solid #000;
-	width: 300px;
-	height: 300px;
-	left: 10px;
-	top: -5930px;
-}
 
 .z-curve1 {
     width:  120px;
